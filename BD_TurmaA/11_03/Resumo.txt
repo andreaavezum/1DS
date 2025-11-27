@@ -1,0 +1,17 @@
+MER - Modelo Entidade-Relacionamento
+
+Entidade -> objeto do mundo real que guarda características
+Atributos -> características das Entidades
+Atributo Chave (Chave Primária) -> Único em cada entidade
+Chave Estrangeira -> atributo chave da outra entidade que efetiva o relacionamento (Forasteiro)
+Relacionamento -> indica a relação entre duas entidades
+Cardinalidade -> restrição que quantifica a relação entre duas entidades
+
+Um para Um -> um elemento de uma Entidade se relaciona com um elemento da outra Entidade
+   Obs.: A chave estrangeira estará em uma das    	duas entidades
+Um para Muitos -> um elemento de uma Entidade se relaciona com muitos elementos da outra Entidade, O elemento da segunda Entidade se relaciona com um elemento da primeira Entidade.
+   Obs.: A chave estrangeira estará do lado muitos
+
+Muitos para Muitos -> um elemento de uma Entidade se relaciona com muitos elementos da outra Entidade, O elemento da segunda Entidade se relaciona com muitos elementos da primeira Entidade.
+   Obs.: Requer tabela extra para inserir as chaves estrangeiras
+A leitura da Cardinalidade sempre começa com UM Elemento.

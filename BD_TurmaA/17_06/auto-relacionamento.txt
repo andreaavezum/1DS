@@ -1,0 +1,8 @@
+Um auto-relacionamento em um banco de dados ocorre quando uma entidade se relaciona consigo mesma, ou seja, um elemento de uma entidade se relaciona com outro elemento da mesma entidade. É um tipo de relacionamento recursivo que permite modelar hierarquias, estruturas de árvore ou relações onde um elemento pode se relacionar com outro da mesma natureza. 
+
+A cardinalidade do auto-relacionamento determina quantos elementos da entidade podem estar relacionados. Por exemplo, em um caso de hierarquia de funcionários, um funcionário pode ter apenas um superior (1:1), mas pode ter muitos subordinados (1:N). 
+
+Considere um cenário de uma indústria onde produtos são compostos por componentes que são também produtos, de forma que um produto é composto por muitos componentes e pode compor muitos outros produtos.
+Observe que estamos lidando com um único conceito que Produto, tanto componente como produto são produtos.
+Neste caso, temos uma composição de produtos.
+É importante observar que nessa caso a forma de representação é a mesma pois se trata da entidade PRODUTO que mantem um relacionamento COMPOSIÇÂO com ela mesma, sendo que a única alteração é com respeito à cardinalidade deste relacionamento que é muitos para muitos.
