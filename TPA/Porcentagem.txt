@@ -1,0 +1,20 @@
+Como calcular porcentagem no algoritmo
+
+No processamento sempre realizar a multiplicação e divisão por 100.
+
+Exemplos:
+1) Calcular 10% do valor da mercadoria:
+	porcentagem = valor * 10/100
+
+2) Acrescentar 5% no valor da mercadoria:
+        reajuste = valor + (valor * 5/100)
+
+3) Receber o salario e adicionar uma porcentagem:
+
+        reajuste = salario + (salario * porc/100)
+
+4) Calcular a porcentagem de um preço de mercadoria:
+        calc = preco * porc/100
+
+5) Reajustar adiconandoa porcentagem no preço de mercadoria:
+        reaj = preco + (preco * porc/100)

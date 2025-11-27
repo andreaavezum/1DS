@@ -1,0 +1,12 @@
+Abrir o modelo de algoritmo com funções que fizemos a aula passada
+
+Desenvolver um programa utilizando estrutura de repetição que receba dois números depois solicite ao usuário qual a operação desejada, sendo:
+1 - Soma
+2 - Subtração
+3 - Multiplicação
+4 - Divisão
+
+As operações deverão estar em funções separadas dentro do algoritmo
+
+Ao final o programa deverá possibilitar a execução novamente do algoritmo com a mensagem:
+Deseja continuar (S/N)?

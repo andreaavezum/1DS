@@ -1,0 +1,20 @@
+Faça um algoritmo que armazene em um vetor 10 números sorteados, utilizando a biblioteca Util e a função:
+
+ sorteia(valor inicial, valor final)
+
+
+
+
+
+
+
+
+
+
+
+Faça as operações:
+1) Receba um número e verifique se ele existe no vetor.
+
+2) Some os valores do vetor e exiba o total.
+
+4) Qual o maior número do vetor.

@@ -1,0 +1,6 @@
+Lista de exercícios com vetor
+
+1 - Elaborar um programa que receba 15 números inteiros e faça:
+a) mostrar os números em ordem inversa
+b) somar os números e mostrar essa soma
+c) mostrar o maior e o menor número
